@@ -1,0 +1,157 @@
+
+.dashboard{
+    display: flex;
+    height: 90vh;
+    padding: 5%;
+    gap: 2%;
+}
+
+.dashboard > .movies{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.dashboard > .users{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard > .cast{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard > .movies > .movies-brief{
+    flex: 2;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    margin: 2% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.dashboard > .movies > .movies-brief > h1{
+    font-weight: lighter;
+    margin: 2% 0;
+}
+
+.dashboard > .movies > .movies-brief > p{
+    font-size: 4rem;
+
+}
+.dashboard > .movies > .get-all-movies-link{
+    flex: 1;
+    margin: 2% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    background-color: teal;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.dashboard > .movies > .create-movie{
+    flex: 1;
+    margin: 2% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    background-color: tomato;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.dashboard > .users > .user-brief{
+    flex: 2;
+    background-color: rgb(200, 140, 206);
+    margin: 2% 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.dashboard > .users > .user-brief > h1{
+    font-weight: lighter;
+    margin: 5% 0;
+
+}
+.dashboard > .users > .user-brief > p{
+    font-size: 4rem;
+}
+.dashboard > .users > .user-list{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    background-color: brown;
+    border-radius: 5px;
+    margin: 2% 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+
+.dashboard > .cast > .cast-brief{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: cornflowerblue;
+    margin: 2% 0;
+    border-radius: 5px;
+
+}
+.dashboard > .cast > .cast-brief > h1{
+    font-weight: lighter;
+    margin: 5% 0;
+}
+
+.dashboard > .cast > .cast-brief > p{
+    font-size: 3rem;
+}
+
+
+.dashboard > .cast > .actor-list{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 2% 0;
+}
+
+.dashboard > .cast > .create-actor{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(131, 180, 110);
+    border-radius: 5px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 2% 0;
+}

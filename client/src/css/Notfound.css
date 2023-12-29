@@ -1,0 +1,23 @@
+
+.not-found-page{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: burlywood;
+    
+}
+
+.not-found-page > div{
+    color: #fff;
+    text-align: center;
+}
+
+.not-found-page > .title{
+    font-size: 6rem;
+    margin: 5%;
+
+}
+
+.not-found-page > .desc{
+    font-size: 2rem;
+}

@@ -1,0 +1,137 @@
+
+.profile-heading{
+    height: 8vh;
+    display: grid;
+    place-content: center;
+    background-color: rgb(73, 50, 205);
+    margin: 0.4rem;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.profile-container{
+    max-height: 100vh;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-container > .container-one{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-container >.container-two{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 2%;
+}
+
+.profile-container > .container-two > .profile-image{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 15rem;
+    color: #fff;
+    background-color: crimson;
+}
+
+
+.profile-fullname, .profile-email, .profile-gender, .profile-contact, .profile-ticket{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 3rem;
+    margin: 0.4rem 3rem;
+    background-color: #242424;    
+    border-radius: 5px;
+}
+.profile-fullname > span, .profile-email > span, .profile-gender > span, .profile-contact > span, .profile-ticket > span{
+    color: #ccc;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+
+.container-one > .profile-fullname > input, 
+.container-one > .profile-email > input, 
+.container-one > .profile-gender > select,
+.container-one > .profile-contact > input{
+    width: 50%;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #242424;
+    color: #ccc;
+}
+.container-one > .profile-fullname > input{
+    text-transform: capitalize;
+}
+
+.container-one > .profile-email > input{
+    text-transform: lowercase;
+}
+
+.container-one > .profile-gender > select{
+    color: #eee;
+    text-transform: uppercase;
+}
+
+
+.profile-ticket > p{
+    width: 50%;
+    color: #fff;
+    font-weight: 100;
+}
+
+.dash{
+    width: 50%;
+    color: #eee;
+}
+
+.profile-ticket{
+    background-color: rgb(73, 50, 205);
+}
+
+.profile-ticket > span{
+    color: #fff;
+}
+
+
+.profile-buttons, .logout-button{
+    display: flex;
+    justify-content: center;
+    padding: 0 3rem;
+}
+
+.profile-buttons > button{
+    width: 100%;
+    padding: 1.5rem 2rem;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: crimson;
+    color: #fff;
+}
+
+.logout-button > button{
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+    border-radius: 50px;
+    background-color: rgb(232, 255, 100);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.logout-button > button:active{
+    transform: scale(0.96);
+}

@@ -1,0 +1,92 @@
+.heading{
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    /* background-color: rgb(100, 63, 133); */
+    background-color: rgb(255, 169, 30);
+    margin: 0.4rem;
+    border-radius: 5px;
+}
+.ticket-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2% 1%;
+}
+
+.ticket-offer{
+    flex: 1;
+    background-color: #222;
+    margin: 0 1rem;
+    padding: 1% 3%;
+    border-radius: 5px;
+    border: 1px solid #222;
+    cursor: pointer;
+}
+
+.ticket-offer > .title{
+    text-transform: uppercase;
+    padding: 4%;
+    margin: 5% 0 10%;
+    text-align: center;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #fff;
+    font-weight: 700;
+    color: #fff;
+}
+
+.ticket-offer > .ticket-price, .ticket-offer > .ticket-movie{
+    margin: 5% 0;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+
+}
+
+.ticket-offer span{
+    color: #fff;
+}
+
+.ticket-container .selected {
+    border: 1px solid rgb(244, 244, 244);
+}
+
+
+.ticket-payment-button{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 3%;
+}
+
+.ticket-payment-button > .ticket-proceed{
+    padding: 1.5rem 2rem;
+    font-size: 1.3rem;
+    border-radius: 50px;
+    text-transform: capitalize;
+    color: #ccc;
+    border: 1px solid #555;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    
+}
+
+.ticket-payment-button > .enabled{
+    cursor: pointer;
+    color: #000;
+    background-color: rgb(255, 182, 64);
+
+}
+
+.ticket-desc{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 4% 3% 1%;
+
+}

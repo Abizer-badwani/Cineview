@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: sans-serif;
+    outline: none;
+    border: 0px;
+    /* border: 1px solid #eee; */
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 1.3px;
+    color: black;
+}
+
+
+body{ background-color: #191919; }
+
+

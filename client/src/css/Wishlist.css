@@ -1,0 +1,33 @@
+
+
+.wishlist-heading{
+    height: 8vh;
+    text-align: center;
+    font-size: 1.4rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 0.4rem;
+    display: grid;
+    place-content: center;
+    font-weight: lighter;
+    background-color: rgb(255, 0, 111);
+    border-radius: 5px;
+}
+
+.wishlist-container{
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.empty-wishlist{
+    text-align: center;
+    color: #ccc;
+    font-weight: lighter;
+    font-size: 1rem;
+    height: 90vh;
+    display: grid;
+    place-content: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}

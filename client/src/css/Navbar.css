@@ -1,0 +1,72 @@
+nav{
+    height: 12vh;
+    /* background-color: rgb(100, 63, 133); */
+    background-color: rebeccapurple;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    border-radius: 5px;
+    margin: 0.4rem;
+}
+
+nav h1{
+    font-size: 2rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.login-link{
+    border-radius: 5px;
+    background-color: #fad7ff;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+}
+.login-link:active{
+    transform: scale(0.98);
+}
+
+.profile-icon{
+    padding: 0.7rem 0.9rem;
+    border-radius: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 191, 71);
+    font-size: 1rem;
+    box-shadow: 0 3px 3px #444;
+}
+
+.profile-icon:active{
+    transform: scale(0.95);
+}
+
+.ticket-link{
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.ticket-link:active{
+    transform: scale(0.98);
+}
+
+.wishlist-link{
+    filter: drop-shadow(0 1px 1px #393939);
+}
+
+.wishlist-link:active{
+    transform: scale(0.98);
+}

@@ -1,0 +1,28 @@
+
+.movie-list{
+    display: flex;
+    flex-direction: column;
+    padding: 1% 2%;
+
+}
+
+.movie-list > div{
+    margin: 0.5rem 0;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    padding: 1% 3%;
+    border-radius: 5px;
+    gap: 2%;
+}
+
+.movie-list > div > span{
+    color: goldenrod;
+}
+
+.movie-list > div > .movie-name{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: lighter;
+}

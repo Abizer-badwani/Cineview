@@ -1,0 +1,45 @@
+.purchase-main{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 3%;
+    transition: 1s ease all;
+}
+
+.purchase-main > .purchase-container{
+    background-color: #242424;
+    padding: 0.8rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 3px solid #333;
+}
+
+.purchase-main > .purchase-container > .yes, .no{
+    margin: 0 2%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.purchase-desc{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5%;
+}
+
+.purchase-desc > .title{
+    font-size: 1.1rem;
+    color: goldenrod;
+    text-transform: uppercase;
+    margin: 3% 0;
+    text-wrap: nowrap;
+}
+
+.purchase-desc > .desc{
+    font-size: 0.9rem;
+    color: #ccc;
+    text-transform: capitalize;
+}
